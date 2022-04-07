@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"hw1_b10802217\startup_stm32f103x6.o"
+"hw1_b10802217\main.o"
+"hw1_b10802217\stm32f1xx_it.o"
+"hw1_b10802217\stm32f1xx_hal_msp.o"
+"hw1_b10802217\stm32f1xx_hal_gpio_ex.o"
+"hw1_b10802217\stm32f1xx_hal_tim.o"
+"hw1_b10802217\stm32f1xx_hal_tim_ex.o"
+"hw1_b10802217\stm32f1xx_hal.o"
+"hw1_b10802217\stm32f1xx_hal_rcc.o"
+"hw1_b10802217\stm32f1xx_hal_rcc_ex.o"
+"hw1_b10802217\stm32f1xx_hal_gpio.o"
+"hw1_b10802217\stm32f1xx_hal_dma.o"
+"hw1_b10802217\stm32f1xx_hal_cortex.o"
+"hw1_b10802217\stm32f1xx_hal_pwr.o"
+"hw1_b10802217\stm32f1xx_hal_flash.o"
+"hw1_b10802217\stm32f1xx_hal_flash_ex.o"
+"hw1_b10802217\stm32f1xx_hal_exti.o"
+"hw1_b10802217\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "HW1_B10802217\HW1_B10802217.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "HW1_B10802217.map" -o HW1_B10802217\HW1_B10802217.axf
