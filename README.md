@@ -1,4 +1,7 @@
 # Embedded System Design on STM32F7G-DISCO LCD 
+:::info
+
+:::
 
 ## HW1
 
