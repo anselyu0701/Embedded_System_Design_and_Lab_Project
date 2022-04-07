@@ -1,7 +1,5 @@
 # Embedded System Design on STM32F7G-DISCO LCD 
-:::info
-
-:::
+**I didn't update "Drivers" folder in every project because the number of files is more than 100**
 
 ## HW1
 
